@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\moham\\Desktop\\EscapeRoomGame\\src\\game\\Game.csproj": {}
+    "C:\\Users\\moham\\Desktop\\2DGameEngine-EscapeRoom\\escaperoomgame\\src\\game\\Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\moham\\Desktop\\EscapeRoomGame\\src\\game\\Game.csproj": {
+    "C:\\Users\\moham\\Desktop\\2DGameEngine-EscapeRoom\\escaperoomgame\\src\\game\\Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moham\\Desktop\\EscapeRoomGame\\src\\game\\Game.csproj",
+        "projectUniqueName": "C:\\Users\\moham\\Desktop\\2DGameEngine-EscapeRoom\\escaperoomgame\\src\\game\\Game.csproj",
         "projectName": "Game",
-        "projectPath": "C:\\Users\\moham\\Desktop\\EscapeRoomGame\\src\\game\\Game.csproj",
+        "projectPath": "C:\\Users\\moham\\Desktop\\2DGameEngine-EscapeRoom\\escaperoomgame\\src\\game\\Game.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moham\\Desktop\\EscapeRoomGame\\src\\game\\obj\\",
+        "outputPath": "C:\\Users\\moham\\Desktop\\2DGameEngine-EscapeRoom\\escaperoomgame\\src\\game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config"

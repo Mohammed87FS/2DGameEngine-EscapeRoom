@@ -3,9 +3,11 @@ using System.Collections.Generic;
 
 class Program
 {
+
+    
     static void Main()
     {
-        Game game = new Game();
+        Game game = new();
         game.Start();
     }
 }
@@ -17,8 +19,8 @@ class Game
 
     public Game()
     {
-        Room room1 = new Room("Entrance Hall", "You are in a large, dimly lit hall.");
-        Room room2 = new Room("Library", "You see walls covered with books.");
+        Room room1 = new("Entrance Hall", "You are in a large, dimly lit hall.");
+        Room room2 = new("Library", "You see walls covered with books.");
         room1.AddExit("north", room2);
         room2.AddExit("south", room1);
 
@@ -48,7 +50,7 @@ class Game
         }
         else if (command.StartsWith("move "))
         {
-            Move(command.Substring(5));
+            Move(command[5..]);
         }
         else if (command == "look")
         {
@@ -62,9 +64,9 @@ class Game
 
     private void Move(string direction)
     {
-        if (currentRoom.Exits.ContainsKey(direction))
+        if (currentRoom.Exits.TryGetValue(direction, out Room? value))
         {
-            currentRoom = currentRoom.Exits[direction];
+            currentRoom = value;
             Console.WriteLine($"You move {direction}.");
         }
         else
@@ -74,18 +76,11 @@ class Game
     }
 }
 
-class Room
+class Room(string name, string description)
 {
-    public string Name { get; private set; }
-    public string Description { get; private set; }
-    public Dictionary<string, Room> Exits { get; private set; }
-
-    public Room(string name, string description)
-    {
-        Name = name;
-        Description = description;
-        Exits = new Dictionary<string, Room>();
-    }
+    public string Name { get; private set; } = name;
+    public string Description { get; private set; } = description;
+    public Dictionary<string, Room> Exits { get; private set; } = [];
 
     public void AddExit(string direction, Room room)
     {

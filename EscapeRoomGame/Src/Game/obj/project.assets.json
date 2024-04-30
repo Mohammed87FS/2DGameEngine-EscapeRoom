@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moham\\Desktop\\EscapeRoomGame\\src\\game\\Game.csproj",
+      "projectUniqueName": "C:\\Users\\moham\\Desktop\\2DGameEngine-EscapeRoom\\EscapeRoomGame\\Src\\Game\\Game.csproj",
       "projectName": "Game",
-      "projectPath": "C:\\Users\\moham\\Desktop\\EscapeRoomGame\\src\\game\\Game.csproj",
+      "projectPath": "C:\\Users\\moham\\Desktop\\2DGameEngine-EscapeRoom\\EscapeRoomGame\\Src\\Game\\Game.csproj",
       "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moham\\Desktop\\EscapeRoomGame\\src\\game\\obj\\",
+      "outputPath": "C:\\Users\\moham\\Desktop\\2DGameEngine-EscapeRoom\\EscapeRoomGame\\Src\\Game\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config"

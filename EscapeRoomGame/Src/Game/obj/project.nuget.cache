@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZI0mQxkV+5+MWm9O07Q0mKNXcsTqs+WcOtgXP4z+GZ3xW3FZNDcYN3ORIJQWvh2knHC3aEtPP6OWeQIJqEUsjw==",
+  "dgSpecHash": "u7D0Ays+PF1dm9PyQ7A1JgAdHGuakYvkl6+yHvPJxMrot3dGPypMtQANgTswehMdYecOMVnS/iS52Y4IViL+JA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\moham\\Desktop\\EscapeRoomGame\\src\\game\\Game.csproj",
+  "projectFilePath": "C:\\Users\\moham\\Desktop\\2DGameEngine-EscapeRoom\\escaperoomgame\\src\\game\\Game.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
