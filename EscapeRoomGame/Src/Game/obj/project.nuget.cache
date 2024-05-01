@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "u7D0Ays+PF1dm9PyQ7A1JgAdHGuakYvkl6+yHvPJxMrot3dGPypMtQANgTswehMdYecOMVnS/iS52Y4IViL+JA==",
+  "dgSpecHash": "JAfrSOI/YHmTRVq4uFWzpKiTchneeMtOKF8Z+7d17wu9ctdJlVT0pI0/Mo9I4QgjkjOo+lH+i1X2lyWpPVYiZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\moham\\Desktop\\2DGameEngine-EscapeRoom\\escaperoomgame\\src\\game\\Game.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\moham\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

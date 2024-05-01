@@ -27,3 +27,6 @@ C:\Users\moham\Desktop\2DGameEngine-EscapeRoom\escaperoomgame\src\game\obj\Debug
 C:\Users\moham\Desktop\2DGameEngine-EscapeRoom\escaperoomgame\src\game\obj\Debug\net8.0\Game.pdb
 C:\Users\moham\Desktop\2DGameEngine-EscapeRoom\escaperoomgame\src\game\obj\Debug\net8.0\Game.genruntimeconfig.cache
 C:\Users\moham\Desktop\2DGameEngine-EscapeRoom\escaperoomgame\src\game\obj\Debug\net8.0\ref\Game.dll
+C:\Users\moham\Desktop\2DGameEngine-EscapeRoom\escaperoomgame\src\game\obj\Debug\net8.0\Game.csproj.AssemblyReference.cache
+C:\Users\moham\Desktop\2DGameEngine-EscapeRoom\escaperoomgame\src\game\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\moham\Desktop\2DGameEngine-EscapeRoom\escaperoomgame\src\game\obj\Debug\net8.0\Game.csproj.Up2Date
